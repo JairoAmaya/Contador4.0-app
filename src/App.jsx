@@ -158,7 +158,7 @@ export default function App() {
       {/* Header */}
       <header className="header">
         <div className="header-content">
-          <h1>📊 Contador 4.0 Express</h1>
+          <h1>Contador 4.0 Express</h1>
           <p className="header-subtitle">105 Prompts Especializados para Transformación con IA</p>
         </div>
         <button 
