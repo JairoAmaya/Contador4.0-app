@@ -847,7 +847,7 @@ body {
 
 .inputs-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* CAMBIADO A 3 COLUMNAS */
   gap: 20px;
 }
 
@@ -989,7 +989,7 @@ body {
 /* Responsive del Modal */
 @media (max-width: 768px) {
   .inputs-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Mantiene 1 columna en tablet/móvil */
   }
   
   .ai-buttons-row {
