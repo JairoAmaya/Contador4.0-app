@@ -354,8 +354,19 @@ export default function App() {
             </div>
             
             <div className="modal-body">
-              
-              {/* Sección de Variables (si existen) */}
+
+              {/* ===== INICIO DE RE-ORDENACIÓN ===== */}
+
+              {/* 1. Contenido del Prompt (Preview) - AHORA PRIMERO */}
+              <div className="original-content">
+                <h3 className="section-title">📄 Prompt Personalizado (Vista Previa)</h3>
+                <div 
+                  className="prompt-preview"
+                  dangerouslySetInnerHTML={{ __html: highlightVariables(getPersonalizedPrompt()) }}
+                />
+              </div>
+
+              {/* 2. Sección de Variables (si existen) - AHORA SEGUNDO */}
               {extractVariables(selectedPrompt.prompt).length > 0 && (
                 <div className="variables-section">
                   <div className="variables-header">
@@ -381,7 +392,7 @@ export default function App() {
                 </div>
               )}
 
-              {/* Botones de Acción */}
+              {/* 3. Botones de Acción - AHORA AL FINAL */}
               <div className="action-buttons-container">
                 <button 
                   className={`btn-copy-main ${copied ? 'copied' : ''}`} 
@@ -396,14 +407,7 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Contenido del Prompt (Preview) */}
-              <div className="original-content">
-                <h3 className="section-title">📄 Prompt Personalizado (Vista Previa)</h3>
-                <div 
-                  className="prompt-preview"
-                  dangerouslySetInnerHTML={{ __html: highlightVariables(getPersonalizedPrompt()) }}
-                />
-              </div>
+              {/* ===== FIN DE RE-ORDENACIÓN ===== */}
 
             </div>
           </div>
