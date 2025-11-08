@@ -1,5 +1,5 @@
 // src/promptsData.js
-// ✅ VERSIÓN COMPLETA ANIDADA (7 CATEGORÍAS) CON TEMPLATE LITERALS (BACKTICKS) Y VARIABLES [ ]
+// ✅ VERSIÓN COMPLETA ANIDADA (8 CATEGORÍAS) CON TEMPLATE LITERALS (BACKTICKS) Y VARIABLES [ ]
 const promptsData = [
   // 1️⃣ ANÁLISIS FINANCIERO ESTRATÉGICO
   {
@@ -294,7 +294,7 @@ const promptsData = [
           },
           {
             title: "KPIs Predictivos y de Early Warning",
-            prompt: `Desarrolla un conjunto de KPIs financieros predictivos que funcionen como sistema de alerta temprana, incluyendo: indicadores adelantados de problemas de liquidez, métricas que predigan deterioro en márgenes, ratios que anticipen dificultades de cobranza, KPIs que alerten sobre desviaciones presupuestarias significativas de [monto/cantidad], indicadores de calidad de earnings, métricas de sostenibilidad del modelo de negocio en [tipo de industria/sector]. Para cada KPI define: algoritmo de cálculo, fuentes de datos requeridas, periodicidad óptima de monitoreo, umbrales críticos de alerta, acciones automáticas a disparar, y correlación con otros indicadores para validación cruzada.`
+            prompt: `Desarrolla un conjunto de KPIs financiero predictivos que funcionen como sistema de alerta temprana, incluyendo: indicadores adelantados de problemas de liquidez, métricas que predigan deterioro en márgenes, ratios que anticipen dificultades de cobranza, KPIs que alerten sobre desviaciones presupuestarias significativas de [monto/cantidad], indicadores de calidad de earnings, métricas de sostenibilidad del modelo de negocio en [tipo de industria/sector]. Para cada KPI define: algoritmo de cálculo, fuentes de datos requeridas, periodicidad óptima de monitoreo, umbrales críticos de alerta, acciones automáticas a disparar, y correlación con otros indicadores para validación cruzada.`
           },
           {
             title: "KPIs de Value Creation por Línea de Negocio",
@@ -434,7 +434,7 @@ const promptsData = [
         prompts: [
           {
             title: "Matriz Integral de Riesgos Tributarios",
-            prompt: `Desarrolla una matriz comprehensiva de riesgos tributarios que identifique y evalúe: riesgos por tipo de impuesto (renta, IVA, retenciones, territoriales), riesgos por proceso (determinación, declaración, pago, fiscalización en [jurisdicción específica]), evaluación de probabilidad e impacto financiero de cada riesgo, análisis de riesgos por posiciones fiscales adoptadas, identificación de áreas grises o interpretativas, evaluación de calidad de documentación de respaldo, análisis de precedentes desfavorables aplicables, riesgos de auditoría por sectores de alta fiscalización, evaluación de controles internos tributarios existentes, cuantificación de exposición máxima por riesgo (ej. [monto/cantidad]), y plan de mitigación priorizado.`
+            prompt: `Desarrolla una matriz comprehensiva de riesgos tributarios que identifique y evalúe: riesgos por tipo de impuesto (renta, IVA, retenciones, territoriales), riesgos por proceso (determinación, declaración, pago, fiscalización en [jurisdicción específica]), evaluación de probabilidad e impacto financiero de cada riesgo, análisis de riesgos por posiciones fiscales adoptadas, identificación de áreas grises o interpretativas, evaluación de calidad de documentación de respaldo, análisis de precedentes desfavorables aplicables, riscos de auditoría por sectores de alta fiscalización, evaluación de controles internos tributarios existentes, cuantificación de exposición máxima por riesgo (ej. [monto/cantidad]), y plan de mitigación priorizado.`
           },
           {
             title: "Análisis de Riesgo en Posiciones Fiscales Agresivas",
@@ -476,7 +476,7 @@ const promptsData = [
         prompts: [
           {
             title: "Diseño de Programa Integral de Auditoría",
-            prompt: `Actúa como auditor senior certificado (CIA/CPA) con experiencia en [sector específico]. Diseña un programa de auditoría integral para evaluar [proceso/área específica] que incluya: (a) Análisis detallado del entorno regulatorio aplicable (normas locales, internacionales, sectoriales), (b) Matriz de riesgos estratificada por probabilidad e impacto con metodología cualitativa y cuantitativa, (c) Objetivos específicos SMART alineados con el apetito de riesgo organizacional, (d) Procedimientos sustantivos y de cumplimiento con técnicas de muestreo estadístico (MUS, estratificado, sistemático), (e) Cronograma detallado con hitos críticos y dependencias, (f) Asignación de recursos humanos por nivel de experiencia y especialización, (g) Presupuesto detallado con análisis de sensibilidad (estimado de [monto/cantidad]), (h) Metodología de documentación según estándares internacionales (IIA, AICPA), (i) Indicadores de calidad y efectividad del programa, (j) Plan de contingencia para riesgos identificados durante la ejecución.`
+            prompt: `Actúa como auditor senior certificado (CIA/CPA) con experiencia en [sector específico]. Diseña un programa de auditoría integral para evaluar [proceso/área específica] que incluya: (a) Análisis detallado del entorno regulatorio aplicable (normas locales, internacionales, sectoriales), (b) Matriz de riesgos estratificada por probabilidad e impacto con metodología cualitativa y cuantitativa, (c) Objetivos específicos SMART alineados con el apetito de riesgo organizacional, (d) Procedimientos sustantivos y de cumplimiento con técnicas de muestreo estadístico (MUS, estratificado, sistemático), (e) Cronograma detallado con hitos críticos y dependencias, (f) Asignación de recursos humanos por nivel de experiencia y especialización, (g) Presupuesto detallado con análisis de sensibilidad (estimado de [monto/cantidad]), (h) Metodología de documentación según estándares internacionais (IIA, AICPA), (i) Indicadores de calidad y efectividad del programa, (j) Plan de contingencia para riesgos identificados durante la ejecución.`
           },
           {
             title: "Programa Basado en Riesgo Empresarial",
@@ -514,7 +514,7 @@ const promptsData = [
           },
           {
             title: "Detección de Fraude Ocupacional Especializado",
-            prompt: `Diseña un programa de detección de fraude ocupacional basado en el Árbol de Fraude de la ACFE. Para apropiación indebida de activos, detecta desnatado de efectivo mediante análisis de depósitos y conciliaciones, fraude en inventario comparando conteos físicos contra registros, y facturación fraudulenta identificando empresas fantasma y compras personales vía análisis del maestro de proveedores. En corrupción, evalúa sobornos mediante relaciones inusuales con proveedores y anomalías de precios, comisiones ilícitas a través de manipulación de licitaciones y concentración de proveedores, y extorsión económica por términos contractuales anormales. Para fraude en estados financieros, examina reconocimiento indebido de ingresos con pruebas de corte y transacciones con partes relacionadas, manipulación de gastos revisando capitalización y reservas, y declaraciones erróneas mediante pruebas de valuación y deterioro. Analiza señales de alerta incluyendo indicadores conductuales de presión financiera, evidencia documental alterada, y debilidades de control como segregación de funciones deficiente. Implementa protocolos de investigación con técnicas de entrevista estructuradas, análisis forense digital de correos y archivos, y preservación de evidencia bajo estándares de cadena de custodia y admisibilidad legal.`
+            prompt: `Diseña un programa de detección de fraude ocupacional basado en el Árbol de Fraude de la ACFE. Para apropiación indebida de activos, detecta desnatado de efectivo mediante análisis de depósitos y conciliaciones, fraude en inventario comparando conteos físicos contra registros, y facturación fraudulenta identificando empresas fantasma y compras personales vía análisis del maestro de proveedores. En corrupción, evalúa sobornos mediante relaciones inusuales com proveedores y anomalías de precios, comisiones ilícitas a través de manipulación de licitaciones y concentración de proveedores, y extorsión económica por términos contractuales anormales. Para fraude en estados financieros, examina reconocimiento indebido de ingresos con pruebas de corte y transacciones con partes relacionadas, manipulación de gastos revisando capitalización y reservas, y declaraciones erróneas mediante pruebas de valuación y deterioro. Analiza señales de alerta incluyendo indicadores conductuais de presión financiera, evidencia documental alterada, y debilidades de control como segregación de funciones deficiente. Implementa protocolos de investigación con técnicas de entrevista estructuradas, análisis forense digital de correos y archivos, y preservación de evidencia bajo estándares de cadena de custodia y admisibilidad legal.`
           },
           {
             title: "Sistema de Alertas Inteligentes de Auditoría",
@@ -594,7 +594,7 @@ const promptsData = [
           },
           {
             title: "Revelaciones y Compliance Multi-moneda",
-            prompt: `Elabora el paquete completo de revelaciones sobre aspectos multi-moneda para estados financieros y reportes regulatorios que incluya: nota sobre políticas contables de conversión de moneda extranjera, revelación de monedas funcionales por entidad significativa, análisis de sensibilidad cuantitativo de exposición a riesgo cambiario, revelación de instrumentos de cobertura y contabilidad de coberturas aplicada, detalle de diferencias de cambio reconocidas en P&L vs. OCI, conciliación de movimientos en reserva de conversión acumulada, revelación de restricciones a repatriación de capital por controles cambiarios, análisis de concentración de exposición por moneda, revelación de políticas de gestión de riesgo cambiario, explicación de cambios en moneda funcional si los hubo, impacto de hiperinflación en economías aplicables (IAS 29), cumplimiento con requerimientos específicos de reguladores locales sobre FX, y presentación ejecutiva que explique impacto FX de manera comprensible para stakeholders no financieros. Incluye templates de revelación cumpliendo IFRS 7, ASC 830 y regulaciones locales aplicables.`
+            prompt: `Elabora el paquete completo de revelaciones sobre aspectos multi-moneda para estados financieros y reportes regulatorios que incluya: nota sobre políticas contables de conversión de moneda extranjera, revelación de monedas funcionales por entidad significativa, análisis de sensibilidad cuantitativo de exposición a riesgo cambiario, revelación de instrumentos de cobertura y contabilidad de coberturas aplicada, detalle de diferencias de cambio reconocidas en P&L vs. OCI, conciliación de movimientos en reserva de conversión acumulada, revelación de restricciones a repatriación de capital por controles cambiarios, análisis de concentración de exposición por moneda, revelación de políticas de gestión de riesgo cambiario, explicación de cambios en moneda funcional si los hubo, impacto de hiperinflación en economías aplicables (IAS 29), cumplimiento con requerimientos específicos de reguladores locais sobre FX, y presentación ejecutiva que explique impacto FX de manera comprensible para stakeholders no financieros. Incluye templates de revelación cumpliendo IFRS 7, ASC 830 y regulaciones locales aplicables.`
           }
         ]
       },
@@ -620,15 +620,15 @@ const promptsData = [
         prompts: [
           {
             title: "Protocolo de Comunicación Intercultural Corporativa",
-            prompt: `Desarrolla un protocolo integral de comunicación intercultural para empresa global que incluya: análisis de dimensiones culturales relevantes (Hofstede, Trompenaars) para mercados donde operamos [país/región], guía de estilos de comunicación preferidos por cultura (directo vs. indirecto, contexto alto vs. bajo), protocolos de meetings y presentaciones por cultura (formalidad, estructura, toma de decisiones), análisis de concepto de tiempo y puntualidad por región (monocrónico vs. policrónico), consideraciones de jerarquía y poder en comunicación organizacional, normas de comunicación escrita (emails, reportes) adaptadas culturalmente, protocolos de negociación y persuasión por cultura, manejo de conflictos y feedback con sensibilidad cultural, uso apropiado de humor y small talk por contexto cultural, consideraciones de lenguaje no verbal y proxémica, gestión de reuniones virtuales multi-culturales, consideraciones de zona horaria y scheduling internacional, días festivos y períodos de baja actividad por región, protocolos de traducción e interpretación cuando requerido, y capacitación en competencia cultural para equipos globales. Incluye casos prácticos y escenarios comunes con do's and don'ts específicos.`
+            prompt: `Desarrolla un protocolo integral de comunicación intercultural para empresa global que incluya: análisis de dimensiones culturales relevantes (Hofstede, Trompenaars) para mercados donde operamos [país/región], guía de estilos de comunicación preferidos por cultura (directo vs. indirecto, contexto alto vs. bajo), protocolos de meetings y presentaciones por cultura (formalidad, estructura, toma de decisiones), análisis de concepto de tiempo y puntualidad por región (monocrónico vs. policrónico), consideraciones de jerarquía y poder en comunicación organizacional, normas de comunicación escrita (emails, reportes) adaptadas culturalmente, protocolos de negociación y persuasión por cultura, manejo de conflictos y feedback con sensibilidad cultural, uso apropiado de humor y small talk por contexto cultural, consideraciones de lenguaje no verbal y proxémica, gestión de reuniones virtuales multi-culturales, considerações de zona horária y scheduling internacional, días festivos y períodos de baja actividad por región, protocolos de traducción e interpretación cuando requerido, y capacitación en competencia cultural para equipos globales. Incluye casos prácticos y escenarios comunes con do's and don'ts específicos.`
           },
           {
             title: "Adaptación de Reportes Financieros por Audiencia Cultural",
-            prompt: `Diseña una metodología para adaptar reportes financieros según contexto cultural de la audiencia que contemple: análisis de preferencias de presentación de información por cultura (datos vs. narrativa, detalle vs. síntesis), adaptación de nivel de contexto requerido en reportes (culturas de alto contexto requieren más background), consideraciones sobre uso de visualizaciones y gráficos por preferencia cultural, adaptación de executive summary (longitud, nivel de detalle, estructura), manejo de información negativa o problemática según cultura (directo vs. suavizado), énfasis en diferentes métricas según valores culturales (short-term vs. long-term orientation), consideraciones de traducción más allá de idioma (conceptos, ejemplos, referencias culturales), protocolo de presentación de reportes (formato, timing, follow-up) por cultura, manejo de preguntas y clarificaciones considerando face-saving, adaptación de recomendaciones y calls-to-action por cultura, uso de referencias comparativas relevantes para cada mercado, y protocolo de validación de comprensión cross-cultural. Incluye templates de reportes adaptados para principales mercados donde operamos (América Latina, Asia, Europa, Norteamérica).`
+            prompt: `Diseña una metodología para adaptar reportes financieros según contexto cultural de la audiencia que contemple: análisis de preferencias de presentación de información por cultura (datos vs. narrativa, detalle vs. síntesis), adaptación de nivel de contexto requerido en reportes (culturas de alto contexto requieren más background), consideraciones sobre uso de visualizaciones y gráficos por preferencia cultural, adaptación de executive summary (longitud, nivel de detalle, estructura), manejo de información negativa o problemática según cultura (directo vs. suavizado), énfasis en diferentes métricas según valores culturais (short-term vs. long-term orientation), consideraciones de traducción más allá de idioma (conceptos, ejemplos, referencias culturais), protocolo de presentación de reportes (formato, timing, follow-up) por cultura, manejo de preguntas y clarificaciones considerando face-saving, adaptación de recomendaciones y calls-to-action por cultura, uso de referencias comparativas relevantes para cada mercado, y protocolo de validación de comprensión cross-cultural. Incluye templates de reportes adaptados para principales mercados donde operamos (América Latina, Asia, Europa, Norteamérica).`
           },
           {
             title: "Gestión de Conflictos Interculturales en Equipos Financieros",
-            prompt: `Crea un framework para gestión de conflictos en equipos financieros multiculturales en [nombre de área/departamento] que incluya: identificación de fuentes comunes de conflicto intercultural (estilos de comunicación, actitudes al tiempo, jerarquía, toma de decisiones), protocolo de detección temprana de tensiones culturales, metodología de análisis de raíz cultural vs. otros factores en conflictos, estrategias de resolución adaptadas culturalmente (mediación, negociación, escalamiento), consideraciones de face-saving y preservación de relaciones, técnicas de facilitación para equipos diversos, protocolos de feedback constructivo cross-cultural, establecimiento de normas de equipo que respeten todas las culturas, role-playing de escenarios de conflicto común con resoluciones, capacitación en inteligencia cultural para líderes, creación de psychological safety en contexto multicultural, mecanismos de escalamiento cultural neutral, y medición de efectividad de equipo multicultural. Incluye casos de estudio de conflictos típicos en consolidación financiera, reporting, y coordinación de cierres entre regiones con soluciones culturalmente inteligentes.`
+            prompt: `Crea un framework para gestión de conflictos en equipos financieros multiculturales en [nombre de área/departamento] que incluya: identificación de fuentes comunes de conflicto intercultural (estilos de comunicación, actitudes al tiempo, jerarquía, toma de decisiones), protocolo de detección temprana de tensiones culturais, metodología de análisis de raíz cultural vs. otros factores en conflictos, estrategias de resolución adaptadas culturalmente (mediación, negociación, escalamiento), consideraciones de face-saving y preservación de relaciones, técnicas de facilitación para equipos diversos, protocolos de feedback constructivo cross-cultural, establecimiento de normas de equipo que respeten todas las culturas, role-playing de escenarios de conflicto común con resoluciones, capacitación en inteligencia cultural para líderes, creación de psychological safety en contexto multicultural, mecanismos de escalamiento cultural neutral, y medición de efectividad de equipo multicultural. Incluye casos de estudio de conflictos típicos en consolidación financiera, reporting, y coordinación de cierres entre regiones con soluciones culturalmente inteligentes.`
           }
         ]
       },
@@ -650,7 +650,82 @@ const promptsData = [
         ]
       }
     ]
+  },
+
+  // --- INICIA EL BLOQUE DE CÓDIGO AÑADIDO (PROMPTS 106-115) ---
+  // 8️⃣ CATEGORÍA EXTRA: OPTIMIZACIÓN Y CONSULTORÍA
+  {
+    title: "🚀 Optimización y Consultoría",
+    icon: "🚀",
+    subcategories: [
+      {
+        title: "Transformación Digital Contable",
+        prompts: [
+          {
+            title: "Diagnóstico de Madurez Digital Contable",
+            prompt: `Actúa como consultor de transformación digital financiera. Evalúa madurez digital de [empresa] incluyendo: (a) Assessment de ecosistema tecnológico actual y nivel de integración, (b) Scoring 1-5 en automatización, digitalización, analytics, nube y ciberseguridad, (c) Benchmarking vs. sector [industria], (d) Quick wins vs. proyectos estratégicos identificados, (e) Gap analysis por área contable clave, (f) Cuantificación de ineficiencias actuales (tiempo, errores, costos), (g) Roadmap de 3 fases con ROI y payback period, (h) Plan de gestión del cambio y capacitación, (i) Estrategia de migración de datos con validaciones, (j) KPIs de éxito por fase. Dashboard visual con priorización impacto/esfuerzo.`
+          },
+          {
+            title: "Implementación de Contabilidad en la Nube",
+            prompt: `Diseña plan de migración cloud para [empresa] que contemple: (a) Matriz de evaluación de plataformas (funcionalidad, costo, seguridad, integraciones), (b) Arquitectura técnica con flujos de información, (c) Plan de migración de datos históricos con protocolo de validación, (d) Estrategia de integración con sistemas existentes, (e) Controles de acceso basados en roles, (f) Protocolos de seguridad y disaster recovery, (g) Plan de capacitación diferenciado por perfil, (h) Estrategia de adopción con pilots gradual, (i) KPIs operativos de éxito, (j) Total Cost of Ownership a 3 años, (k) Plan de optimización post-implementación. Cronograma Gantt con dependencias críticas.`
+          }
+        ]
+      },
+      {
+        title: "Modelos de Negocio Innovadores",
+        prompts: [
+          {
+            title: "Servicios de CFO Virtual",
+            prompt: `Desarrolla modelo completo de CFO Virtual con: (a) 3 paquetes diferenciados (Básico, Profesional, Premium) con entregables específicos, (b) Metodología de trabajo y frecuencias, (c) Perfiles de cliente ideal por facturación y complejidad, (d) Estructura de pricing (retainer, proyecto, equity), (e) Propuesta de valor vs. CFO full-time, (f) Servicios incluidos: modelado financiero, fundraising, M&A, planeación fiscal, (g) Tecnología y SLAs comprometidos, (h) Proceso de onboarding 30-60-90 días, (i) Casos de éxito por industria, (j) Estrategia de escalamiento, (k) Análisis de rentabilidad y capacidad óptima. Templates de contratos y pitch deck ejecutivo.`
+          },
+          {
+            title: "Modelo de Suscripción Escalonado",
+            prompt: `Crea arquitectura de suscripción mensual que incluya: (a) 4 tiers con naming estratégico, (b) Matriz de features con diferenciación visible, (c) Pricing psicológico y posicionamiento, (d) Servicios core vs. add-ons modulares, (e) Análisis de Customer Lifetime Value por tier, (f) Customer journey completo (onboarding a advocacy), (g) Métricas SaaS: MRR, ARR, Churn, NRR, CAC, LTV:CAC, (h) Estrategia de upselling basada en triggers, (i) Programa de retención con beneficios, (j) Dashboard con health scores predictivos, (k) Facturación automatizada, (l) Comunicación de valor continuo. Proyección financiera a 3 años con escenarios.`
+          }
+        ]
+      },
+      {
+        title: "Crecimiento y Expansión",
+        prompts: [
+          {
+            title: "Estrategia de Especialización Vertical",
+            prompt: `Desarrolla especialización en [industria] que incluya: (a) Análisis de atractivo sectorial (mercado, crecimiento, disposición a pagar), (b) Pain points específicos no resueltos, (c) Desarrollo de expertise único: regulaciones, métricas, benchmarks del sector, (d) Servicios especializados diferenciados, (e) Metodologías propietarias sector-específicas, (f) Portfolio de casos de estudio, (g) Thought leadership: contenido, conferencias, publicaciones, (h) Networking con asociaciones gremiales, (i) Alianzas con proveedores complementarios, (j) Marketing adaptado con lenguaje sectorial, (k) Pricing premium justificado (25-40%), (l) Referral program, (m) Estrategia de entrada con cliente ancla. Plan de marketing 12 meses para posicionamiento #1.`
+          },
+          {
+            title: "Alianzas Estratégicas y Partnerships",
+            prompt: `Diseña framework de alianzas que incluya: (a) Mapeo de ecosistema complementario (legal, consultoría, tecnología, banca), (b) Identificación de partners mediante matriz de evaluación, (c) Propuesta de valor para partners (acceso a clientes, co-marketing, revenue sharing), (d) Estructura de acuerdos: referral fees, co-delivery, white label, (e) Protocolo de calificación de referrals, (f) Onboarding de partners con entrenamiento, (g) Tracking de referrals y revenue attribution, (h) Incentivos para top performers, (i) Co-marketing: webinars, contenido, eventos, (j) Servicios integrados multidisciplinarios, (k) Governance con reuniones trimestrales, (l) Métricas de éxito del programa. Templates de acuerdos y CRM para gestión.`
+          }
+        ]
+      },
+      {
+        title: "Análisis Avanzado e Inteligencia de Negocios",
+        prompts: [
+          {
+            title: "Inteligencia de Negocios Financiera",
+            prompt: `Desarrolla solución de inteligencia de negocios que incluya: (a) Evaluación de fuentes de datos y calidad, (b) Diseño de almacén de datos con modelo dimensional, (c) Procesos de extracción, transformación y carga para consolidación automática, (d) Paneles de control por rol: director ejecutivo, director financiero, gerencias, junta, (e) Reportes interactivos: estado de resultados detallado, márgenes, rentabilidad, flujo de efectivo, variaciones, (f) Alertas automáticas basadas en umbrales, (g) Análisis predictivo: proyección con aprendizaje automático, anomalías, tendencias, (h) Análisis de escenarios hipotéticos y simulación, (i) Inteligencia de negocios móvil en tiempo real, (j) Seguridad con restricción por nivel de fila, (k) Gestión del cambio y capacitación, (l) Plan de mantenimiento, (m) Retorno de inversión de implementación. Recomendación de plataforma con hoja de ruta en fases.`
+          },
+          {
+            title: "Sistema de Alerta Temprana de Quiebra",
+            prompt: `Diseña sistema de alerta temprana que incluya: (a) Modelos predictivos: Calificación Z de Altman, Calificación O de Ohlson, Calificación de Zmijewski, (b) Tarjeta de puntuación propietaria con variables de cliente/industria, (c) Monitoreo de razones críticas con umbrales dinámicos: liquidez, solvencia, rentabilidad, eficiencia, (d) Análisis de tendencias de múltiples períodos, (e) Indicadores no financieros: pérdida de clientes, rotación de administración, conflictos, (f) Análisis de patrones de flujo de efectivo y tasa de consumo de capital, (g) Evaluación de calidad de utilidades, (h) Pruebas de estrés bajo escenarios adversos, (i) Panel de control de puntuación de salud con semáforos, (j) Alertas automáticas con severidad y escalamiento, (k) Reportes con diagnóstico y plan de acción, (l) Validación retrospectiva de modelos, (m) Marco de recuperación empresarial. Balance entre sensibilidad y especificidad con tiempo anticipado suficiente.`
+          }
+        ]
+      },
+      {
+        title: "Posicionamiento y Autoridad",
+        prompts: [
+          {
+            title: "Estrategia de Marca Personal (Contador 4.0)",
+            prompt: `Actúa como un estratega de marketing digital para servicios profesionales. Diseña un plan de 12 meses para posicionar a un contador como un 'Contador 4.0' experto en [nicho específico, ej: startups tech]. El plan debe incluir: (a) Definición de audiencia objetivo (pain points, canales), (b) Propuesta de valor única y mensaje clave, (c) Pilares de contenido (ej: IA en finanzas, optimización fiscal tech, métricas SaaS), (d) Canales de distribución (LinkedIn, Blog, Newsletter), (e) Formatos de contenido (artículos, videos cortos, webinars), (f) Estrategia de lead magnet (ej: 'Checklist de 10 errores fiscales en Startups'), (g) Calendario editorial quincenal, (h) KPIs de éxito (engagement, leads cualificados, consultas), (i) Estrategia de networking digital con [aliados clave, ej: VCs/aceleradoras].`
+          },
+          {
+            title: "Diseño de Programa de Capacitación (Workshop)",
+            prompt: `Diseña la estructura completa de un workshop de 4 horas llamado "[Nombre del Workshop, ej: Finanzas para No Financieros]" dirigido a [audiencia objetivo, ej: dueños de PYMES / gerentes de área]. El diseño debe incluir: (a) Objetivos claros de aprendizaje (ej: 'Interpretar un P&G', 'Entender el Flujo de Caja'), (b) Agenda detallada módulo por módulo (con tiempos), (c) 3 Casos prácticos clave a resolver, (d) Entregables para los participantes (ej: plantilla de presupuesto, glosario), (e) Metodología de enseñanza (ej: 40% teoría, 60% práctica), (f) Estrategia de evaluación de aprendizaje (quiz final), (g) Borrador del email de marketing para vender el workshop, (h) Modelo de precios sugerido (por persona / por empresa).`
+          }
+        ]
+      }
+    ]
   }
+  // --- TERMINA EL BLOQUE DE CÓDIGO AÑADIDO ---
 ];
 
 export default promptsData;
