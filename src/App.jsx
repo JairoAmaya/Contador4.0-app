@@ -159,7 +159,7 @@ export default function App() {
       <header className="header">
         <div className="header-content">
           <h1>Contador 4.0 Express</h1>
-          <p className="header-subtitle">105 Prompts Especializados para Transformación con IA</p>
+          <p className="header-subtitle">115 Prompts Especializados para Transformación con IA</p>
         </div>
         <button 
           className="instructions-btn"
@@ -328,7 +328,7 @@ export default function App() {
       <footer className="app-footer">
         <p>
           <strong>Contador 4.0 Express</strong> es un complemento del E-Book "Contador 4.0: Sistema de Transformación con IA para Contadores" 
-          que incluye 105 prompts especializados. Desarrollado por{' '}
+          que incluye 115 prompts especializados. Desarrollado por{' '}
           <a href="https://jairoamaya.co" target="_blank" rel="noopener noreferrer">
             Jairo Amaya - Full Stack Marketer
           </a>
