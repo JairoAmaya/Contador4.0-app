@@ -1,10 +1,10 @@
 # 📊 Contador4.0-app
 
-Sistema de Transformación con IA para Contadores Profesionales. Una biblioteca de 105 prompts especializados listos para usar con personalización de variables.
+Sistema de Transformación con IA para Contadores Profesionales. Una biblioteca de 115 prompts especializados listos para usar con personalización de variables.
 
 ## ✨ Características
 
-* **🎯 105 Prompts Especializados** organizados en 7 categorías de alto valor.
+* **🎯 115 Prompts Especializados** organizados en 7 categorías de alto valor.
 * **🔍 Búsqueda Inteligente** en tiempo real (por título, contenido y subcategoría).
 * **🎨 Modal de Personalización** con sistema de variables dinámico.
 * **✏️ Relleno Automático** de variables y vista previa en tiempo real.
