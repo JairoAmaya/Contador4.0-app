@@ -1,7 +1,7 @@
 {
   "name": "contador4-express-v2",
   "version": "2.0.0",
-  "description": "Sistema de Transformación con IA para Contadores - 105 Prompts Especializados",
+  "description": "Sistema de Transformación con IA para Contadores - 115 Prompts Especializados",
   "type": "module",
   "scripts": {
     "dev": "vite",
